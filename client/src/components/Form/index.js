@@ -1,30 +1,33 @@
 import React from 'react';
-import './style.css';
 
-function Form(props) {
+function Form({ q, handleInputChange, handleFormSubmit }) {
 	return (
-		<div className='container'>
-			<form>
-				<div className='form-group'>
-					<label htmlFor='search'></label>
-					<input
-						onChange={props.handleInputChange}
-						value={props.search}
-						name='search'
-						type='text'
-						className='form-control'
-						placeholder='Search for a Book'
-						id='search'
-					/>
-					<button
-						onClick={props.handleFormSubmit}
-						className='btn btn-dark mt-3 mb-5'
-					>
-						Search
-					</button>
-				</div>
-			</form>
-		</div>
+		<form>
+			<div className='form-group'>
+				<label htmlFor='Query'>
+					<strong>Book</strong>
+				</label>
+				<input
+					className='form-control'
+					id='Title'
+					type='text'
+					value={q}
+					placeholder='Harry Potter'
+					name='q'
+					onChange={handleInputChange}
+					required
+				/>
+			</div>
+			<div className='pull-right'>
+				<button
+					onClick={handleFormSubmit}
+					type='submit'
+					className='btn btn-lg btn-outline-info float-right'
+				>
+					Search
+				</button>
+			</div>
+		</form>
 	);
 }
 
