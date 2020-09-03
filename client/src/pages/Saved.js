@@ -38,9 +38,9 @@ class Saved extends Component {
 							<h1 className='text-center'>
 								<strong>(React) Google Books Search</strong>
 							</h1>
-							<h2 className='text-center'>
+							<h3 className='text-center'>
 								Search for and Save Books of Interest.
-							</h2>
+							</h3>
 						</Jumbotron>
 					</Col>
 				</Row>
