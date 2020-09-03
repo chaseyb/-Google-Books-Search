@@ -34,7 +34,7 @@ When using this web application the user will be able to Search, View, and saved
 
 ## Heroku Demo
 
-[Heroku link](https://google-books-search-5000.herokuapp.com// "Heroku Link")
+[Heroku link](https://google-books-search-5000.herokuapp.com/ "Heroku Link")
 
 ## Questions?
 
