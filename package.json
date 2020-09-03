@@ -1,5 +1,5 @@
 {
-	"name": "google-books",
+	"name": "mern",
 	"version": "1.0.0",
 	"description": "MERN Stack application that allows the user to display and save books based on searching with Google Books API.",
 	"main": "server.js",
@@ -24,9 +24,5 @@
 		"express": "^4.16.3",
 		"mongoose": "^5.3.16",
 		"if-env": "^1.0.4"
-	},
-	"engines": {
-		"npm": "5.6.0",
-		"node": "8.10.0"
 	}
 }
